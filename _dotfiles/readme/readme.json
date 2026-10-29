@@ -1,0 +1,10 @@
+{
+  "title": "Fin-CM-NexusZ",
+  "intro": "Nexus company site (TypeScript + SCSS + shaders, vanilla framework).",
+  "sections": [
+    {
+      "title": "Repository",
+      "body": "Member of the [Fin-CM](https://github.com/diegonmarcos/Fin-CM) hub. This repo is the single source of the project; it was moved out of `front-endeavours` (`a_Companies/nexus`) in ticket #1224 and `front-endeavours/a_Companies/nexus` is now a symlink to this checkout.\n\n- Published at https://diegonmarcos.github.io/nexus/ (URL unchanged).\n- Layout follows the deployer conventions: project at the repo root, `build.json`, `build.sh` and `ship.yml` symlinks into `1_cicd` / `.github`, which in turn point into the `0_deployer` submodule (diegonmarcos.github.io, shallow, `ignore = all`).\n- The deployer (diegonmarcos.github.io, Pages workflow) clones THIS repo and overlays it at `a_Companies/nexus`; it never builds through the front-endeavours symlink."
+    }
+  ]
+}
