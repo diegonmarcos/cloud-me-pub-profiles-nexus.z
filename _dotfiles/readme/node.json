@@ -5,6 +5,7 @@
   "label": "cloud-me-pub-profiles-nexus.z",
   "code": "1.2.1.1.3",
   "kind": "repo",
+  "variant": "repo",
   "description": "Nexus.z — company site",
   "visibility": "public",
   "url": "https://github.com/diegonmarcos/cloud-me-pub-profiles-nexus.z",
